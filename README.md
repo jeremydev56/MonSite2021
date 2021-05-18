@@ -25,7 +25,6 @@ U = Untracked = nouveau fichier
 A = Added
 D = Deleted
 
-
 Dans l'ordre, puis travailler en local avec git :
 
 ```bash
@@ -33,7 +32,13 @@ git add . # ajoutes les fichiers
 git commit -m "message" # sauvegarde une version des fichiers ajoutés
 ```
 
-pour récup des versions :
+Pour voir tout les commits du projet :
+
+```bash
+git log
+```
+
+Pour récup des versions :
 
 ```bash
 # si aucuns fichiers modifiés
