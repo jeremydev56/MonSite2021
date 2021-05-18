@@ -6,5 +6,8 @@
             "email": "jacobjeremy5675@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    }
 }
